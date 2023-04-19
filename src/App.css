@@ -79,7 +79,15 @@ justify-content: center;
 }
 #add,#subtract,#remove{
   margin-left: 10px;
-  
-  
+  border-radius: 10px;
+  width: 60px;
 }
-
+#add{
+  background-color: rgb(77, 169, 77);
+}
+#subtract{
+  background-color: rgb(240, 114, 114);
+}
+#remove{
+  background-color: red;
+}
